@@ -40,10 +40,10 @@ y(x) =
  <img width="1556" height="81" alt="image" src="https://github.com/user-attachments/assets/51af0bf2-88ee-4c35-b624-d1370e956db0" />
 
  # Блок схеми #
- <img width="583" height="796" alt="image" src="https://github.com/user-attachments/assets/c722d11c-df0f-4882-b868-056f334e5c87" />
- 
- <img width="588" height="786" alt="image" src="https://github.com/user-attachments/assets/b263f731-eda3-40cd-9ac0-25921551e354" />
- 
+ <img width="941" height="1280" alt="image" src="https://github.com/user-attachments/assets/b5e39254-be5d-41d4-9568-b242cafef4fa" />
+
+ <img width="965" height="1280" alt="image" src="https://github.com/user-attachments/assets/e8fd1d70-c1bd-49a6-b759-317742e6169c" />
+
 # Програмний код програм #
  ```c
  #include <stdio.h>
