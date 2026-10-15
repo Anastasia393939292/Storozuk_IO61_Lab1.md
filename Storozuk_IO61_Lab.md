@@ -31,10 +31,46 @@
 У програмі дозволяється використовувати тільки одиничні операції порівняння (=, <>, <, <=, >, >=) і не дозволяється використовувати булеві (логічні) операції (not, and, or тощо);
 2) У програмі необхідно обов'язково використати булеві (логічні) операції (not, and, or тощо); використання булевих операцій не повинно бути надлишковим.
 
-**Умови до варіанту 1:**
+**Умови до варіанту 25:**
 
          f1(x) ,  x ∈ D1
 y(x) =
          f2(x) ,  x ∈ D2
 
  <img width="1556" height="81" alt="image" src="https://github.com/user-attachments/assets/51af0bf2-88ee-4c35-b624-d1370e956db0" />
+
+ # Блок схеми #
+ <img width="583" height="796" alt="image" src="https://github.com/user-attachments/assets/c722d11c-df0f-4882-b868-056f334e5c87" />
+ 
+ <img width="588" height="786" alt="image" src="https://github.com/user-attachments/assets/b263f731-eda3-40cd-9ac0-25921551e354" />
+
+# Програмний код програм #
+<  #include <stdio.h>
+
+int main(int argc, char *argv[]) {
+    double x;
+    double y;
+
+    scanf("%lf", &x);
+
+    if (x <= -10.0) {
+        printf("function is undefined for this value\n");
+    } else if (x <= -5.0) {
+        y = x * x * x - 6;
+        printf("%lf\n", y);
+    } else if (x <= 5.0) {
+        printf("function is undefined for this value\n");
+    } else if (x <= 15.0) {
+        y = x * x * x - 6;
+        printf("%lf\n", y);
+    } else if (x < 25.0) {
+        printf("function is undefined for this value\n");
+    } else {
+        y = 2 * x * x * x - 3 * x + 2;
+        printf("%lf\n", y);
+    }
+
+    return 0;
+} > 
+
+
