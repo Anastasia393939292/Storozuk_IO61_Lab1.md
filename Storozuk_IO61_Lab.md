@@ -43,9 +43,10 @@ y(x) =
  <img width="583" height="796" alt="image" src="https://github.com/user-attachments/assets/c722d11c-df0f-4882-b868-056f334e5c87" />
  
  <img width="588" height="786" alt="image" src="https://github.com/user-attachments/assets/b263f731-eda3-40cd-9ac0-25921551e354" />
-
+ 
 # Програмний код програм #
-<  #include <stdio.h>
+ ```c
+ #include <stdio.h>
 
 int main(int argc, char *argv[]) {
     double x;
@@ -71,6 +72,6 @@ int main(int argc, char *argv[]) {
     }
 
     return 0;
-} > 
+} 
 
 
