@@ -100,9 +100,26 @@ int main(int argc, char *argv[]) {
 ```
 
 
-| Х (Вхідні дані) | Y (Результат) | Статус |
-| --------------- | ------------- | ------ |
-| -12.5           | Не визначено  | Успішно |
-| 0.0             | -6.0          | Успішно |
-| 20.0            | Не визначено  | Помилка |
+### Тести кожної програми
+
+| № тесту | Вхідне значення (X) | Очікуваний результат (Y) | Фактичний результат | Статус |
+| :---:   | :---:               | :---                     | :---                | :---:  |
+| 1       | -12.0               | Функція не визначена     | Функція не визначена | Пройдено |
+| 2       | -7.0                | y = (-7)³ - 6 = -349     | -349.000000         | Пройдено |
+| 3       | 0.0                 | Функція не визначена     | Функція не визначена | Пройдено |
+| 4       | 10.0                | y = 10³ - 6 = 994        | 994.000000          | Пройдено |
+
+## Перший розвязок
+
+<img width="1130" height="180" alt="image" src="https://github.com/user-attachments/assets/4bea8e50-ea6c-48a0-8713-5cb6c1e69f7c" />
+<img width="1415" height="89" alt="image" src="https://github.com/user-attachments/assets/7cd0a83a-4165-4f49-9d24-08f452179cd8" />
+<img width="1583" height="114" alt="image" src="https://github.com/user-attachments/assets/2823c6d3-1553-4545-ba36-61623d2d57d7" />
+<img width="1571" height="191" alt="image" src="https://github.com/user-attachments/assets/ee808d4a-3f7f-4d6d-814a-756409e400d2" />
+
+## другий розвязок
+
+<img width="1571" height="191" alt="image" src="https://github.com/user-attachments/assets/e34f176d-74b5-42f1-9af5-8a63f783cec9" />
+
+
+
 
